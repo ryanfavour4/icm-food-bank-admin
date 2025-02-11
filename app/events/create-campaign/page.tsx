@@ -93,7 +93,7 @@ export default function CreateCampaign() {
                 </div>
                 <div className="mt-2 flex items-center justify-start gap-6 border-t pt-6">
                     <button className="btn-primary flex items-center gap-2 max-h-96 md:w-1/4">
-                        Submit Manifest
+                        Submit Campaign
                     </button>
                 </div>
             </form>
