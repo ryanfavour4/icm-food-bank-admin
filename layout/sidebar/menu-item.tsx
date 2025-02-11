@@ -27,10 +27,10 @@ export const MenuItem = ({
             <Link
                 className={
                     isActive && !menu.subMenus
-                        ? `relative flex pl-6 items-center justify-between gap-1 bg-light/25 py-2 ${
+                        ? `relative flex pl-6 items-center justify-between gap-1 bg-light/25 py-3 ${
                               subMenuOpen && "bg-light/25"
                           }`
-                        : `relative flex pl-6 items-center justify-between gap-1 py-2 hover:bg-light/25 ${
+                        : `relative flex pl-6 items-center justify-between gap-1 py-3 hover:bg-light/25 ${
                               subMenuOpen && "bg-light/25"
                           }`
                 }

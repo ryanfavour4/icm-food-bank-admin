@@ -1,6 +1,11 @@
 import { JSX, useEffect, useRef, useState } from "react";
 import DashboardSquares from "@/components/svg/dashboard-squares";
-import ChartLineUp from "@/components/svg/chart-line-up";
+import GiftBox from "@/components/svg/gift-box";
+import EventCalender from "@/components/svg/event-calender";
+import File from "@/components/svg/file";
+import Picture from "@/components/svg/picture";
+import PlateFood from "@/components/svg/plate-food";
+import Cog from "@/components/svg/cog";
 
 export type T_menuChildren = {
     title: string;
@@ -30,32 +35,32 @@ export default function useSidebar() {
                 {
                     title: "Donations",
                     path: "/donations",
-                    icon: <ChartLineUp className="text-2xl" />,
+                    icon: <GiftBox className="text-2xl" />,
                 },
                 {
                     title: "Events",
-                    path: "/events",
-                    icon: <DashboardSquares className="text-2xl" />,
+                    path: "/events/create-campaign",
+                    icon: <EventCalender className="text-2xl" />,
                 },
                 {
                     title: "Report",
                     path: "/report",
-                    icon: <ChartLineUp className="text-2xl" />,
+                    icon: <File className="text-2xl" />,
                 },
                 {
                     title: "Gallery",
                     path: "/gallery",
-                    icon: <DashboardSquares className="text-2xl" />,
+                    icon: <Picture className="text-2xl" />,
                 },
                 {
                     title: "Meal",
                     path: "/meal",
-                    icon: <ChartLineUp className="text-2xl" />,
+                    icon: <PlateFood className="text-2xl" />,
                 },
                 {
                     title: "Settings",
                     path: "/settings",
-                    icon: <ChartLineUp className="text-2xl" />,
+                    icon: <Cog className="text-2xl" />,
                 },
             ],
         },
