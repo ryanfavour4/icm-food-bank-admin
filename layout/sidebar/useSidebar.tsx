@@ -1,11 +1,11 @@
 import { JSX, useEffect, useRef, useState } from "react";
 import DashboardSquares from "@/components/svg/dashboard-squares";
-import GiftBox from "@/components/svg/gift-box";
 import EventCalender from "@/components/svg/event-calender";
 import File from "@/components/svg/file";
 import Picture from "@/components/svg/picture";
 import PlateFood from "@/components/svg/plate-food";
 import Cog from "@/components/svg/cog";
+import DonateGiveCoin from "@/components/svg/donate-give-coin";
 
 export type T_menuChildren = {
     title: string;
@@ -34,8 +34,8 @@ export default function useSidebar() {
                 },
                 {
                     title: "Donations",
-                    path: "/donations",
-                    icon: <GiftBox className="text-2xl" />,
+                    path: "/donations/create-food-donation",
+                    icon: <DonateGiveCoin className="text-2xl" />,
                 },
                 {
                     title: "Events",
