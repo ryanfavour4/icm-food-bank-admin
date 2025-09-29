@@ -29,17 +29,17 @@ export default function useSidebar() {
             children: [
                 {
                     title: "Dashboard",
-                    path: "/dashboard",
+                    path: "/dashboard/",
                     icon: <DashboardSquares className="text-2xl" />,
                 },
                 {
                     title: "Donations",
-                    path: "/donations/create-food-donation",
+                    path: "/dashboard/donations/create-food-donation",
                     icon: <DonateGiveCoin className="text-2xl" />,
                 },
                 {
                     title: "Events",
-                    path: "/events/create-campaign",
+                    path: "/dashboard/events/create-campaign",
                     icon: <EventCalender className="text-2xl" />,
                 },
                 {
